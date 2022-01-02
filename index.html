@@ -1,0 +1,52 @@
+<html>
+<head>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body style="background: #dbdbdb;">
+<h3>GROUP MEMBERS: <br>Muhammad Hamza Saleem -- 63712<br>Sheheryar Shah -- 63617</h3>
+<label id="n-container">
+	<label>N = <input style="width:200px;" id="n" type="number" value="1"/></label>
+	<label id="delay-container">
+		<label for="">Delay = 			<input id="delay" type="number" value="1"/></label>
+	</label>
+	<label>
+		<button id="run">run</button>
+	</label>
+</label>
+<h1>Divide And Conquer</h1>
+<hr>
+	<div id="DnC">
+		<div id="DnC-canvas"></div>
+		<div class="run-info">
+			<div>
+				Status : <span class="status">stopped</span>
+			</div>
+			<h2>
+				Execution Time : <span class="exec-time">NaN</span>
+			</h2>
+		</div>
+	</div>
+
+<h1>Dynamic Programming</h1>
+<hr>
+<div style="display: flex;">
+	<div id="DP">
+		<div id="DP-canvas"></div>
+		<div class="run-info">
+			<div>
+				Status :
+				<span class="status">stopped</span>
+			</div>
+			<div>
+				Execution Time : <span class="exec-time">NaN</span>
+			</div>
+		</div>
+	</div>
+</div>
+	<script src="tools.js"></script>
+	<script src="chess-user-interface.js"></script>
+	<script src="engine1.js"></script>
+	<script src="engine2.js"></script>
+	<script src="js.js"></script>
+</body>
+</html>
